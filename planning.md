@@ -461,3 +461,92 @@ Every Reddit post was manually reviewed before assigning its final label. AI-gen
 
 ---
 
+# Milestone 4: Zero-Shot Baseline Evaluation
+
+## Baseline Model
+
+**Model:** Groq Llama-3.3-70B-Versatile (Zero-Shot)
+
+**Evaluation Dataset:** Held-out Test Set
+
+**Test Set Size:** 34 Reddit posts
+
+**Classification Labels:**
+
+* Career & Industry
+* Learning & Projects
+* Hardware & Boards
+* Design & Debugging
+
+---
+
+## Baseline Evaluation Results
+
+The zero-shot baseline was evaluated on the held-out test set before any fine-tuning.
+
+### Overall Accuracy
+
+**Baseline Accuracy:** **73.5% (0.735)**
+
+### Parseable Responses
+
+The baseline successfully classified every example in the test set.
+
+* Total test examples: **34**
+* Successfully parsed responses: **34**
+* Unparseable responses: **0**
+* Parse rate: **100%**
+
+Since all responses were successfully parsed, no further prompt revision was required.
+
+---
+
+## Per-Class Performance
+
+| Label               | Precision | Recall | F1-Score | Support |
+| ------------------- | --------: | -----: | -------: | ------: |
+| Career & Industry   |      1.00 |   0.56 |     0.71 |       9 |
+| Learning & Projects |      0.54 |   0.78 |     0.64 |       9 |
+| Hardware & Boards   |      0.71 |   0.71 |     0.71 |       7 |
+| Design & Debugging  |      0.89 |   0.89 |     0.89 |       9 |
+
+**Overall Accuracy:** **0.74**
+
+**Macro Average**
+
+* Precision: **0.79**
+* Recall: **0.73**
+* F1-score: **0.74**
+
+**Weighted Average**
+
+* Precision: **0.79**
+* Recall: **0.74**
+* F1-score: **0.74**
+
+---
+
+## Baseline Reflection
+
+The zero-shot baseline achieved an overall accuracy of **73.5%**, indicating that the large language model was able to correctly classify most FPGA Reddit posts without task-specific training.
+
+Among the four categories, **Design & Debugging** achieved the strongest performance with a precision of **0.89**, recall of **0.89**, and F1-score of **0.89**. This suggests that posts discussing debugging, RTL implementation, synthesis, timing analysis, and FPGA design tools contain distinctive terminology that is easier for the model to recognize.
+
+The **Hardware & Boards** category achieved balanced performance with precision, recall, and F1-score all equal to **0.71**, indicating reasonably consistent classification performance.
+
+The **Career & Industry** category achieved the highest precision (**1.00**), meaning every prediction assigned to this category was correct. However, its recall was only **0.56**, indicating that several Career & Industry posts were classified into other categories.
+
+The **Learning & Projects** category achieved the highest recall (**0.78**), meaning that most true Learning & Projects posts were successfully identified. However, its precision was only **0.54**, indicating that several posts from other categories were incorrectly classified as Learning & Projects.
+
+Overall, the results suggest that the model had greater difficulty distinguishing **Learning & Projects** from other categories than it did identifying **Design & Debugging** posts.
+
+---
+
+## Hypothesis Before Fine-Tuning
+
+Based on the baseline results, I expect the fine-tuned DistilBERT model to improve the overall classification accuracy by learning FPGA-specific terminology and the differences between the four annotation categories.
+
+The largest improvement is expected in the **Learning & Projects** category because it produced the lowest precision in the zero-shot baseline. Fine-tuning should enable the model to better distinguish learning-related discussions from posts about hardware recommendations and career guidance.
+
+---
+
