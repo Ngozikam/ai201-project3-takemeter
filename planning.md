@@ -20,8 +20,6 @@ Reason for Choosing
 
 ## Recurring Discussion Themesgit diff planning.md
 
-
-
 After reviewing discussions from the r/FPGA community, the following recurring themes were identified:
 
 1. FPGA Career and Industry
@@ -203,4 +201,263 @@ After model evaluation, ChatGPT will be used to analyze incorrectly classified e
 ## Review of Success Criteria
 
 The selected evaluation metrics and performance thresholds provide objective measures for determining whether the classifier is suitable for practical use. These criteria allow the final model to be evaluated consistently and compared with future improvements.
+
+# Milestone 3 – Dataset Collection and Annotation
+
+## Dataset Source
+
+The dataset was collected from **public posts** in the Reddit **r/FPGA** community. Only publicly accessible posts were used, satisfying the project requirements. No private forums, authenticated content, or personal data were collected.
+
+---
+
+## Dataset Summary
+
+* **Community:** Reddit (r/FPGA)
+* **Dataset size:** 222 labeled posts
+* **Annotation method:** Manual annotation
+* **File format:** CSV
+* **Dataset file:** `FPGA_Reddit_Dataset_1_222.csv`
+
+The dataset contains the following columns:
+
+| Column | Description                              |
+| ------ | ---------------------------------------- |
+| text   | Reddit post title or content             |
+| label  | One of the four classification labels    |
+| notes  | Short explanation or annotation comments |
+| No     | Dataset index (optional)                 |
+
+The dataset is stored as a **single CSV file**, as required by the project. The dataset has **not** been pre-split into training, validation, or testing sets because the project notebook automatically performs the **70% / 15% / 15%** split.
+
+---
+
+# Label Definitions
+
+The Reddit posts were categorized into four mutually exclusive classes.
+
+## 1. Career & Industry
+
+Posts related to:
+
+* Career advice
+* FPGA job opportunities
+* Hiring
+* Salaries
+* Interviews
+* Certifications
+* Industry outlook
+* Internships
+* Professional development
+* Career transitions
+
+Examples:
+
+* Looking to hire FPGA Engineers
+* FPGA Careers — What's It Like Day-to-Day?
+* How common are layoffs of FPGA Engineers?
+
+---
+
+## 2. Learning & Projects
+
+Posts focused on:
+
+* Learning FPGA development
+* Tutorials
+* Educational resources
+* Student questions
+* Personal FPGA projects
+* Final-year projects
+* Research projects
+* FPGA applications
+* Project recommendations
+
+Examples:
+
+* FPGA Starter Projects
+* Final year FPGA project
+* Ideas for interesting FPGA projects
+
+---
+
+## 3. Hardware & Boards
+
+Posts primarily discussing:
+
+* FPGA development boards
+* RFSoC platforms
+* PYNQ boards
+* Versal boards
+* Basys
+* Nexys
+* Zynq
+* Tang Nano
+* Altera
+* Intel
+* AMD/Xilinx hardware
+* Purchasing recommendations
+* Hardware selection
+
+Examples:
+
+* Which FPGA board should I buy?
+* Cheap FPGA dev board
+* Looking for an FPGA board under $600
+
+---
+
+## 4. Design & Debugging
+
+Posts involving FPGA implementation, including:
+
+* RTL design
+* Verilog
+* VHDL
+* Vivado
+* Quartus
+* Vitis
+* Timing analysis
+* CDC
+* Simulation
+* Verification
+* Synthesis
+* Hardware debugging
+* AXI
+* PCIe
+* MIPI
+* Ethernet
+* Clocking
+* FPGA implementation issues
+
+Examples:
+
+* What is wrong with this Verilog?
+* Design works in Vivado but not after packaging as IP
+* Our generated RTL simulated perfectly but failed on hardware
+
+---
+
+# Dataset Statistics
+
+A total of **222** Reddit posts were manually labeled.
+
+## Final Label Distribution
+
+| Label               | Percentage |
+| ------------------- | ---------: |
+| Learning & Projects |     27.03% |
+| Career & Industry   |     25.23% |
+| Design & Debugging  |     25.23% |
+| Hardware & Boards   |     22.52% |
+
+No label exceeds **70%** of the dataset.
+
+Therefore, the dataset satisfies the class balance requirement specified in the project instructions.
+
+---
+
+# Annotation Process
+
+Each Reddit post was read individually before assigning a label.
+
+Whenever a post appeared to belong to multiple categories, the label was assigned according to the **primary intent** of the post rather than secondary topics.
+
+Posts were **not** labeled in bulk or by keyword matching. Every example received an individual review before the final annotation was assigned.
+
+---
+
+# Hard Edge Cases
+
+## Edge Case 1
+
+### Post
+
+> What kind of hardware DV project actually gets a recruiter's attention?
+
+Possible labels:
+
+* Career & Industry
+* Learning & Projects
+
+Final label:
+
+**Career & Industry**
+
+Reason:
+
+Although the post discusses FPGA projects, the primary objective is obtaining employment and improving a résumé rather than learning FPGA design itself.
+
+---
+
+## Edge Case 2
+
+### Post
+
+> Looking for an FPGA development board suitable for machine learning.
+
+Possible labels:
+
+* Hardware & Boards
+* Learning & Projects
+
+Final label:
+
+**Hardware & Boards**
+
+Reason:
+
+The central question concerns selecting an FPGA board. Machine learning is only the intended application.
+
+---
+
+## Edge Case 3
+
+### Post
+
+> Our generated RTL simulated perfectly but failed on hardware.
+
+Possible labels:
+
+* Design & Debugging
+* Learning & Projects
+
+Final label:
+
+**Design & Debugging**
+
+Reason:
+
+The post focuses on diagnosing and correcting implementation problems between simulation and real hardware rather than learning FPGA concepts.
+
+---
+
+# Dataset Validation
+
+The dataset was verified using Python and pandas.
+
+Validation confirmed:
+
+* 222 labeled examples
+* Four unique labels
+* No missing labels
+* No missing text entries
+* Balanced label distribution
+* Single CSV file suitable for training
+
+---
+
+# AI Usage Disclosure
+
+ChatGPT was used to assist with:
+
+* organizing the Reddit dataset,
+* identifying duplicate posts,
+* reviewing annotation consistency,
+* checking class balance,
+* generating CSV and Excel versions of the dataset,
+* verifying dataset integrity before training.
+
+Every Reddit post was manually reviewed before assigning its final label. AI-generated suggestions were reviewed and corrected where necessary. Final labeling decisions were made by the project author.
+
+---
 

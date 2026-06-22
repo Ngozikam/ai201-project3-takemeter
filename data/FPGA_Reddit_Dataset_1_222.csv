@@ -1,0 +1,223 @@
+No,Text,Label,Notes
+1,What is your outlook on the FPGA industry over the next 5–20 years? Should I be worried?,Career & Industry,Discussion about FPGA career outlook.
+2,Which is the hottest FPGA in the market for beginners right now (2026)?,Hardware & Boards,Seeking a beginner FPGA board recommendation.
+3,New grad freaking out about FPGA interviews – how did you prep?,Career & Industry,Seeking FPGA interview preparation advice.
+4,Looking to hire FPGA Engineers,Career & Industry,FPGA job recruitment discussion.
+5,"Need help buying and picking an FPGA for personal project, interested in HFT",Hardware & Boards,Seeking advice on FPGA board selection.
+6,Our generated RTL simulated perfectly but on the board it did something else. Need some insights.,Design & Debugging,Seeking help debugging hardware behavior.
+7,How do I break into the FPGA industry?,Career & Industry,Seeking advice on entering the FPGA industry.
+8,FPGA Starter Projects,Learning & Projects,Looking for beginner FPGA projects.
+9,I'm sick of FPGA development..,Career & Industry,Seeking advice on changing career paths.
+10,How does FPGA development work in industry from requirements to implementation?,Learning & Projects,Learning the FPGA development workflow.
+11,Entry Level FPGA Engineer Jobs,Career & Industry,Seeking advice on getting an entry-level FPGA job.
+12,FPGA vs CPU on Simple Addition,Learning & Projects,Comparing FPGA and CPU concepts for learning.
+13,New to FPGAs,Learning & Projects,Looking for FPGA learning resources.
+14,How tough is the FPGA industry right now?,Career & Industry,Seeking advice about FPGA career opportunities.
+15,What is the major problem you face in FPGAs,Learning & Projects,Discussing common challenges in FPGA development.
+16,How do I get into FPGA programming?,Learning & Projects,Seeking guidance on learning FPGA programming.
+17,Getting started with FPGA,Career & Industry,Seeking advice on getting an FPGA job.
+18,What should I do to break into FPGA?,Career & Industry,Seeking advice on entering the FPGA field.
+19,How did he get the FPGA to output UART on every pin esp specific pin names?,Design & Debugging,Seeking help understanding an FPGA implementation.
+20,FPGA first project ideas,Learning & Projects,Looking for beginner FPGA project ideas.
+21,Getting Started with FPGA's,Learning & Projects,Looking for learning resources and resume-building projects.
+22,r/GowinFPGA is available for adoption 💚,Learning & Projects,Community announcement about an FPGA subreddit.
+23,How fpga lost the ai race,Learning & Projects,Discussing FPGA technology in AI applications.
+24,How to learn FPGA development as freshman in undergrad?,Learning & Projects,Seeking advice on learning FPGA development.
+25,Will FPGAs become more common in the future than today or do you think the opposite will be the case?,Career & Industry,Discussing the future of FPGA technology.
+26,How did you discover FPGAs? How did you get started? And do you like working on them?,Career & Industry,Discussing FPGA career experiences.
+27,What is FPGA actually useful for?,Learning & Projects,Understanding FPGA applications and advantages.
+28,FPGA ?,Career & Industry,Asking whether learning FPGA is worthwhile for a career.
+29,How do you guys learn how to program an FPGA?,Learning & Projects,Seeking advice on learning FPGA programming.
+30,Some cool things I can do with an FPGA board.,Learning & Projects,Looking for ideas to explore with an FPGA board.
+31,Good FPGA projects for a CV,Learning & Projects,Looking for projects to strengthen a CV.
+32,Best FPGA devkit for beginner(ish) in 2026?,Hardware & Boards,Seeking a beginner FPGA development board.
+33,Any FPGA Project Recommendations?,Learning & Projects,Looking for advanced FPGA project ideas.
+34,FPGA dev board recommendations,Hardware & Boards,Seeking recommendations for an FPGA development board.
+35,Should I keep learning FPGA? Does it have a future?,Career & Industry,Asking about FPGA career prospects.
+36,"First stage of bringup, the power circuit of my FPGA board works",Learning & Projects,Sharing progress on an FPGA board project.
+37,My first DIY FPGA board,Learning & Projects,Sharing a personal FPGA hardware project.
+38,Using FPGA for Trading (HFT),Learning & Projects,Asking about FPGA applications in HFT.
+39,I want to learn FPGA specifically targeting computer architectures and memory systems.,Learning & Projects,Seeking FPGA learning guidance for computer architecture and memory systems.
+40,Why/Where/How did you use an FPGA?,Learning & Projects,Discussing real-world FPGA applications.
+41,What FPGA is best to buy?,Hardware & Boards,Seeking recommendations for an FPGA board.
+42,Anyone had success with their own projects?,Learning & Projects,Asking about FPGA project experience.
+43,My first FPGA project: emulating SPI NOR flash,Learning & Projects,Sharing an FPGA project.
+44,My very first FPGA board.,Learning & Projects,Looking for FPGA project suggestions.
+45,Young FPGA engineer going through a quarter life crisis,Career & Industry,Seeking career advice.
+46,Can anyone share real world example of using FPGAs?,Learning & Projects,Asking about real-world FPGA applications.
+47,Looking for a beginner-friendly Xilinx project,Learning & Projects,Looking for a beginner FPGA project.
+48,Made my own FPGA board - FirePi one,Learning & Projects,Sharing a personal FPGA board project.
+49,Good FPGA for hobbyist,Hardware & Boards,Seeking recommendations for an FPGA board.
+50,What is wrong with this verilog?,Design & Debugging,Seeking help debugging Verilog code.
+51,Update on Logicode,Learning & Projects,Sharing an FPGA learning platform.
+52,FPGA for home projects,Hardware & Boards,Seeking an FPGA board for home projects.
+53,Tutorial recommendations for building a CPU with a FPGA,Learning & Projects,Looking for FPGA learning resources.
+54,What are your private FPGA projects and why?,Learning & Projects,Discussing personal FPGA projects.
+55,What is your biggest frustration regarding FPGA design,Design & Debugging,Discussing FPGA design challenges.
+56,Which FPGA board should I buy?,Hardware & Boards,Seeking recommendations for an FPGA board.
+57,Are FPGA engineers/specialists generally 30+?,Career & Industry,Discussing FPGA career trends.
+58,My own FPGA board - Arctyx Nano,Learning & Projects,Sharing a personal FPGA board project.
+59,Is FPGA experience a good path toward ASIC chip design?,Career & Industry,Asking about FPGA to ASIC career transition.
+60,"Help, /r/MiSTerFPGA. From a zero-knowledge starting point, what do I need to do so the Xbox controller with keypad can be made into a functioning PC keyboard (Intellivision, C64, PC-88, etc.)?",Design & Debugging,Seeking help with an FPGA implementation.
+61,What FPGA is that?,Hardware & Boards,Identifying an unknown FPGA device.
+62,Emulated the NES on my custom FPGA circuit board!,Learning & Projects,Sharing a personal FPGA project.
+63,Project recommendations for FPGA + Power Electronics??,Learning & Projects,Looking for FPGA project ideas.
+64,Final year FPGA project,Learning & Projects,Seeking ideas for a final-year FPGA project.
+65,Learning Board Recommendations,Hardware & Boards,Seeking recommendations for an FPGA board.
+66,Model based FPGA/ASIC design tool,Design & Debugging,Discussing FPGA design methodology and tools.
+67,What's the current use case for FPGAs?,Learning & Projects,Asking about FPGA applications.
+68,How can I start learning FPGA without owning any hardware?,Learning & Projects,Seeking FPGA learning resources.
+69,Should I deep dive into C++ or FPGA for HFT?,Career & Industry,Seeking career advice for HFT.
+70,How to Learn FPGA and DSP,Learning & Projects,Seeking FPGA and DSP learning resources.
+71,[BEGINNER] How to learn FPGA programming?,Learning & Projects,Seeking FPGA learning resources.
+72,ELI5: What's all this drama on FPGA?,Learning & Projects,Asking about FPGA concepts.
+73,500th blog on FPGA and how it changed my life. Oh and saw some FPGA stuff!,Learning & Projects,Sharing FPGA experiences.
+74,Why FPGA?,Career & Industry,Asking about FPGA career prospects.
+75,Auto Researcher Loop for FPGA,Learning & Projects,Sharing an FPGA development tool.
+76,"SKALP v0.1.1: A new HDL with compile-time clock domain checking, integrated synthesis, and iCE40 P&R — looking for feedback from FPGA engineers",Design & Debugging,Sharing a new FPGA design tool.
+77,Is FPGA gaming only useful for retro games?,Learning & Projects,Asking about FPGA gaming applications.
+78,Beginner's Guide to FPGA's,Learning & Projects,Seeking FPGA learning resources.
+79,FPGA projects for beginner with embedded,Learning & Projects,Looking for beginner FPGA project ideas.
+80,Xilinx Related,Learning & Projects,Seeking Xilinx FPGA learning resources.
+81,What is the most interesting fact about FPGA?,Learning & Projects,Asking about FPGA facts and concepts.
+82,"Is it useful to know FPGA for ""completeness""?",Learning & Projects,Asking about the value of learning FPGA.
+83,Ideas for interesting FPGA projects,Learning & Projects,Looking for FPGA project ideas.
+84,AI in FPGA as bad as in software development?,Career & Industry,Asking about FPGA career prospects in the AI era.
+85,Which is the best budget FPGA board for learning purposes?,Hardware & Boards,Seeking a budget FPGA board recommendation.
+86,FPGA engineers in India,Career & Industry,Asking about FPGA job opportunities.
+87,How do I start with basic image processing?,Learning & Projects,Seeking guidance on FPGA image processing.
+88,Hardware Orderbooks,Learning & Projects,Discussing FPGA projects for HFT.
+89,Whats the big deal about FPGAS?,Learning & Projects,Asking about FPGA applications and education.
+90,FPGA Development Needs a Modern Refresh – An Engineer's Perspective Here!,Design & Debugging,Discussing FPGA development tools and workflows.
+91,"Are these FPGAs still worth using, or are they too old? Any ideas on what I should do with them?",Hardware & Boards,Asking about older FPGA devices.
+92,Vivado 2026.1 Basic - Limited Debugging + XSIM,Design & Debugging,Discussing Vivado debugging features.
+93,Learning to implement complex system on FPGAs,Learning & Projects,Seeking guidance on advanced FPGA design.
+94,The job market for FPGA HLS,Career & Industry,Discussing FPGA HLS career opportunities.
+95,FPGA Careers — What's It Like Day-to-Day?,Career & Industry,Asking about FPGA career experiences.
+96,Cheap FPGA dev board,Hardware & Boards,Sharing a low-cost FPGA board recommendation.
+97,Lattice,Career & Industry,Discussing the FPGA industry and market.
+98,Getting started with FPGAs....what am I missing?,Design & Debugging,Seeking help with FPGA development.
+99,My Neural Network Accelerator finally works,Design & Debugging,Sharing the solution to an FPGA debugging problem.
+100,I turned my 6502 SBC emulator into a real FPGA-based 6502 computer project,Learning & Projects,Sharing a completed FPGA project.
+101,SPI flash ID Check failed on Spartan-6,Design & Debugging,Seeking help debugging SPI flash programming.
+102,Quick Radar Demonstration Hardware,Hardware & Boards,Seeking hardware recommendations for a radar demonstration.
+103,Help! Which one should I tick for a Nexys4 DDR?,Hardware & Boards,Asking which board/tool option to select.
+104,What kind of hardware DV project actually gets a recruiter's attention?,Career & Industry,Seeking verification project advice for recruitment.
+105,Need FYP Advice: Which FPGA SoC topic maximizes my value for the future?,Career & Industry,Choosing an FPGA project based on future career value.
+106,FPGA with erased markings....,Hardware & Boards,Asking whether an FPGA module with worn markings is usable.
+107,The debugger to debug the bug was the bug,Design & Debugging,Debugging an issue where the ILA debugger itself affected system behavior and masked the actual bug.
+108,Design works in simple Vivado project but not once packaged in an IP and used in a block design,Design & Debugging,Debugging a Vivado IP integration issue.
+109,"Initializing UART on PL PMOD pins on the ZCU102 isn't working, any help would be appreciated.",Design & Debugging,Debugging UART initialization on ZCU102.
+110,Need Help with PAL Video Pipeline: TVP5146 → FPGA → ADV7194,Design & Debugging,Seeking help implementing an FPGA PAL video pipeline.
+111,AXI datamover IP,Design & Debugging,Seeking help with AXI Datamover implementation.
+112,Best way to stream 720p video over Wi-Fi from a PYNQ-Z2 while running an FPGA HDMI pipeline?,Design & Debugging,Seeking help with FPGA video streaming architecture.
+113,MIPI CSI,Design & Debugging,Seeking help understanding MIPI CSI transport format.
+114,Reducing HSSIO delays,Design & Debugging,Seeking help reducing FPGA timing delays.
+115,I built a free browser tool to learn VHDL (real GHDL simulation + live waveforms),Learning & Projects,Sharing a browser-based VHDL learning platform.
+116,Rising Junior Looking for Advice,Career & Industry,Seeking advice for FPGA career preparation.
+117,Intercommunication Protocol for Multi FPGA (Xilinx ZCU216 RFSoC UltraScale+),Design & Debugging,Seeking guidance on multi-FPGA communication.
+118,Final year ECE project: RISC-V processor on FPGA + Edge-AI coprocessor,Learning & Projects,Seeking guidance on an advanced FPGA project.
+119,24yo EE with background in test/power. I am worried I am missing my window to get into FPGA engineering. Is it possible?,Career & Industry,Seeking FPGA career advice.
+120,Building an FPGA on a breadboard,Learning & Projects,Sharing a personal FPGA hardware project.
+121,RFSoC PCIe RF Wireless Development Board for ZYNQ Onboard GNSS Module PPS Output FPGA suggestion,Hardware & Boards,Seeking recommendations for an RFSoC development board.
+122,SUGGESTIONS ON PROJECT,Learning & Projects,Seeking guidance on building a RISC-V FPGA project.
+123,JTAG Secure Mode,Design & Debugging,Seeking guidance on securing an FPGA JTAG interface.
+124,CBA vs PLD (FPGA) allocation for system-level fault/threshold value,Design & Debugging,Discussing FPGA system-level design methodology.
+125,Pypeline (HDL): a new Python frontend for PipelineC,Design & Debugging,Sharing a new HDL development framework.
+126,Does anyone have experience with using the AWS_CLK_GEN module to slow down the clock on the AWS F2 FPGA?,Design & Debugging,Seeking help configuring the AWS FPGA clock generator.
+127,"Snake on a ULX3S over HDMI, written in TypeScript: runs in the browser, exports Verilog",Learning & Projects,Sharing an FPGA game project and design approach.
+128,Free in-browser Verilog simulator/synthesizer + open courseware,Learning & Projects,Sharing free Verilog learning resources.
+129,I have a Cyclone II FPGA board,Hardware & Boards,Seeking help using a Cyclone II FPGA board.
+130,Certification courses,Career & Industry,Seeking FPGA/VHDL/Verilog certification courses.
+131,Am I doing something wrong? – Basys 3 board,Design & Debugging,Seeking help resolving Basys 3 bitstream generation failure.
+132,We added waveform debugging (via Surfer) for HWE coding problems,Career & Industry,Sharing a hardware interview preparation platform.
+133,Follow-up: LazyVerilog now supports VS Code,Design & Debugging,Sharing an RTL development tool update.
+134,Looking for career advice,Career & Industry,Seeking advice on starting an FPGA career.
+135,VHDL online simulator GHDL and NVC ported to WebAssembly,Design & Debugging,Sharing an online VHDL simulation tool.
+136,PCIe Gen 6 FLIT mode explained — what every FPGA designer needs to know before their first Gen 6 bring-up,Design & Debugging,Explaining PCIe Gen 6 concepts for FPGA designers.
+137,I have a problem with synthesis,Design & Debugging,Seeking help with Vivado synthesis optimization.
+138,No JTAG Blaster for your cheap Cyclone board? You can use Arduino Uno as a Blaster!,Hardware & Boards,Sharing a low-cost JTAG solution for Cyclone boards.
+139,Open source simulation landscape and advances towards mixed language support,Design & Debugging,Discussing FPGA simulation tools and mixed-language support.
+140,How common are layoffs of FPGA Engineers?,Career & Industry,Asking about FPGA job stability.
+141,VGA on Intel DE10-Lite,Design & Debugging,Seeking help implementing VGA in Verilog.
+142,Creating a dev board with PCIe based on XCKU3P,Hardware & Boards,Seeking guidance on designing a custom FPGA development board.
+143,Design and Verification Interview questions,Career & Industry,Sharing FPGA design and verification interview resources.
+144,Open Source and Free Vivado alternatives for Fedora?,Design & Debugging,Seeking alternative FPGA development tools.
+145,I built wavepeek: a CLI tool for querying VCD/FST/FSDB waveforms from scripts,Design & Debugging,Sharing a waveform debugging tool.
+146,Custom DNN Accelerator from scratch (works perfectly in simulation but fails on hardware),Design & Debugging,Debugging simulation versus hardware behavior.
+147,Why is the clock uncertainty helping the hold constraints shouldn't it be opposite?,Design & Debugging,Seeking help understanding FPGA timing analysis.
+148,Can someone with my background break into FPGA development? At 4 YOE?,Career & Industry,Seeking advice on transitioning into FPGA development.
+149,io_stream Output Lag / Pipeline Stall with 1D Pointwise CNN on Artix-7,Design & Debugging,Seeking help debugging an FPGA pipeline stall.
+150,"Update: All testbench tests passed, 48/48, 100% coverage",Design & Debugging,Sharing the resolution of a testbench debugging issue.
+151,motorloop - Verilator testbench that runs BLDC controller RTL closed-loop against a C++ motor/inverter model,Design & Debugging,Sharing a hardware verification and simulation framework.
+152,Resume Review: SWE 2 in Space Systems Verification Looking to Pivot,Career & Industry,Seeking advice on transitioning into FPGA roles.
+153,Lockheed Martin is Hiring ASIC & FPGA Design Engineer – Early Career,Career & Industry,Sharing an FPGA job opportunity.
+154,Vitis Platform files confusion,Design & Debugging,Seeking help locating Vitis platform files.
+155,"Open-source DUT fuzzing harness, config in, coverage report out for FPGAs & CPUs",Design & Debugging,Sharing an FPGA verification and fuzzing tool.
+156,Risks of applying external clock to an unpowered FPGA?,Design & Debugging,Seeking guidance on FPGA hardware reliability.
+157,FPGA-Based EO/IR Video Engine for Multi-Sensor Surveillance,Design & Debugging,Discussing FPGA implementation for surveillance systems.
+158,Looking to rent/try/buy used Xilinx Versal VHK158 (HBM)/VEK385 dev board in SF Bay Area,Hardware & Boards,Seeking access to a specific FPGA development board.
+159,Giulio Zausa's MMO-CHIP Makes Reverse Engineering Old Silicon Chips a Multiplayer Game,Design & Debugging,Sharing a chip reverse-engineering and Verilog tool.
+160,"PYNQ-Z2 Board 7020, anyone working on it?",Hardware & Boards,Discussing applications of the PYNQ-Z2 board.
+161,Help with Xilinx ISE 14.7 VM Kernel Panic on Windows 11 (Modern CPU),Design & Debugging,Seeking help resolving Xilinx ISE VM boot issues.
+162,IC design ideas,Learning & Projects,Seeking ideas for an integrated circuit design project.
+163,Mechatronics student looking for a VLSI/FPGA roadmap,Career & Industry,Seeking guidance on an FPGA career roadmap.
+164,Looking for FPGA / Embedded Systems Contributors for a University Startup,Career & Industry,Recruiting contributors for an FPGA startup project.
+165,Need your opinion/criticism,Career & Industry,Seeking feedback on FPGA research and career direction.
+166,FT602Q Control Transfer Response Occasionally Echoes Previous Request,Design & Debugging,Seeking help debugging FPGA USB communication.
+167,Tang Nano,Hardware & Boards,Asking about Gowin Tang Nano development tools.
+168,MIPI CSI-2 FPGA Loopback Test,Design & Debugging,Seeking advice on FPGA MIPI loopback testing.
+169,What are personal projects that recruiters like to see?,Career & Industry,Seeking advice on FPGA projects for internships.
+170,Is the TUL PYNQ™-Z2 board a good beginner board?,Hardware & Boards,Seeking advice on a beginner FPGA development board.
+171,Cannot find a job in FPGA design anymore,Career & Industry,Seeking advice after difficulty finding FPGA employment.
+172,Aspiring EE curious about Quant Firms,Career & Industry,Seeking education advice for FPGA careers in quantitative finance.
+173,MATLAB to FPGA,Design & Debugging,Seeking guidance on converting MATLAB DSP designs to FPGA.
+174,Is it realistically possible to learn SystemVerilog/FPGA design in 6 months?,Career & Industry,Asking about the FPGA learning path.
+175,What are the FPGAs you are currently working on and what applications?,Hardware & Boards,Discussing FPGA devices and applications.
+176,Is it possible to set buffer as BRAM instead of flip-flops?,Design & Debugging,Seeking help optimizing FPGA memory resources.
+177,Learning FPGA,Hardware & Boards,Asking whether the Altera DE1 is a good beginner board.
+178,LVDS tutorials,Design & Debugging,Seeking LVDS implementation tutorials and examples.
+179,Is the Tang Nano 20K firmware update working?,Hardware & Boards,Seeking advice about Tang Nano firmware updates.
+180,Please educate me about nuances of a two-flop synchronizer,Design & Debugging,Seeking help understanding metastability and synchronizers.
+181,Looking for Maven Silicon study material / sources for VLSI domains,Career & Industry,Seeking interview preparation resources.
+182,Does anyone use UVM Framework (UVMF)?,Design & Debugging,Seeking guidance on using the UVM Framework.
+183,Technical interview at Graphcore for design position,Career & Industry,Seeking FPGA interview advice.
+184,I have previously worked with Artix-7. I have to get familiarised with the VPK180 Versal board,Hardware & Boards,Seeking guidance on using the Versal VPK180 board.
+185,Is this the cheapest and best PCIe FPGA board available?,Hardware & Boards,Seeking recommendations for a PCIe FPGA board.
+186,Scaling a Streaming FPGA MAC Accelerator: One DMA or Multiple DMAs?,Design & Debugging,Seeking architectural advice for an FPGA accelerator.
+187,Nokia FPGA Hackathon Entrance Test,Career & Industry,Seeking advice on an FPGA hackathon entrance test.
+188,How can I configure FPGA fabric from Linux on Agilex 5 SoC?,Hardware & Boards,Seeking help configuring an Agilex 5 FPGA board.
+189,Discourage me from transitioning into RTL / FPGA,Career & Industry,Seeking career advice about transitioning into FPGA design.
+190,Is VIM+Tmux a thing in FPGA design? Is it used?,Career & Industry,Asking about FPGA development workflows.
+191,Advice for a rising college freshman,Career & Industry,Seeking advice on preparing for an FPGA/ASIC career.
+192,First FPGA Board,Hardware & Boards,Seeking recommendations for a first FPGA development board.
+193,Multiple stream input FFT,Design & Debugging,Seeking help implementing a multi-stream FFT on FPGA.
+194,Difficulty with getting Yosys simulation to work,Design & Debugging,Seeking help with Yosys simulation.
+195,Are you an FPGA engineer in the UK? A Question,Career & Industry,Discussing FPGA salaries in the UK.
+196,Is it possible to have a fulfilling career in FPGA without touching the calculus-heavy analog side?,Career & Industry,Asking about FPGA career specialization.
+197,"Finally got my FPGA board, here's to making some cool stuff",Hardware & Boards,Sharing a newly acquired FPGA board.
+198,Looking for an FPGA dev board under $600 suitable for machine learning,Hardware & Boards,Seeking recommendations for an ML-capable FPGA board.
+199,Custom FPGA board bringup,Hardware & Boards,Seeking help bringing up a custom FPGA board.
+200,Newbie given an FPGA board,Hardware & Boards,Seeking guidance on getting started with an FPGA board.
+201,Board to Board IP,Hardware & Boards,Seeking advice on connecting multiple FPGA boards.
+202,Recommended Dev Board for Medium to Advanced Projects,Hardware & Boards,Seeking recommendations for an advanced FPGA board.
+203,Best board for a beginner,Hardware & Boards,Asking for a beginner FPGA development board.
+204,Looking for dev board recommendations,Hardware & Boards,Seeking a board for graphics/video projects.
+205,How to Choose an FPGA Board,Hardware & Boards,Asking how to select an FPGA board.
+206,Yet another FPGA for beginner board request,Hardware & Boards,Seeking a beginner FPGA board recommendation.
+207,An impossible FPGA development board,Hardware & Boards,Looking for an FPGA board with specific features.
+208,FPGA board for my project?,Hardware & Boards,Seeking an FPGA board for a Li-Fi communication project.
+209,Help Me Choose an FPGA Board! (Options & Links inside),Hardware & Boards,Asking for help selecting an FPGA board.
+210,First board – Is there such a thing as too much?,Hardware & Boards,Asking whether a high-end FPGA board is suitable for beginners.
+211,Dev board with SFP,Hardware & Boards,Seeking recommendations for an FPGA board with an SFP interface.
+212,FPGA board for £200,Hardware & Boards,Seeking recommendations for an upgraded FPGA development board.
+213,FPGA Board for MS Student Interested in Learning VHDL/Verilog,Hardware & Boards,Seeking an FPGA board for learning VHDL and Verilog.
+214,"Is there such a thing like an FPGA ""motherboard""?",Hardware & Boards,Asking about FPGA boards with replaceable FPGA devices.
+215,Best trainer board for beginner EE,Hardware & Boards,Seeking a beginner FPGA trainer board recommendation.
+216,Can a computer science graduate work in FPGA industry?,Career & Industry,Asking whether a CS graduate can pursue FPGA careers.
+217,FPGA engineers: what actually helped you stand out with just a bachelor's degree?,Career & Industry,Seeking career advice for entering FPGA engineering.
+218,What fields are FPGAs used in? What do employers want in those fields?,Career & Industry,Asking about FPGA application domains and employer expectations.
+219,FPGA careers in France,Career & Industry,Seeking information about FPGA careers in France.
+220,Career transition into FPGA from embedded,Career & Industry,Asking about transitioning from embedded systems to FPGA.
+221,Career as an FAE for FPGA,Career & Industry,Seeking advice about becoming an FPGA Field Application Engineer.
+222,Needed debugging skills in FPGA,Design & Debugging,Seeking advice on FPGA debugging techniques and tools.
