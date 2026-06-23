@@ -381,3 +381,102 @@ The project also reinforced the importance of reproducibility. After a Colab run
 ## Confusion Matrix
 
 ![Confusion Matrix](results/confusion_matrix.png)
+
+# Demo Script 
+
+This demonstration addresses the four required items for the project demo.
+
+---
+
+## 1. Show 3–5 Posts Being Classified by the Fine-Tuned Model
+
+### Classification 1 (Correct Prediction)
+
+**Post**
+
+> Some cool things I can do with an FPGA board.
+
+**Predicted Label:** Learning & Projects
+
+**Confidence:** 0.27
+
+This prediction is correct because the post is asking about FPGA project ideas and learning opportunities. The primary intent is educational, which matches the Learning & Projects category.
+
+---
+
+### Classification 2
+
+**Post**
+
+> Technical interview at Graphcore for design position.
+
+**Predicted Label:** Hardware & Boards
+
+**Confidence:** 0.26
+
+---
+
+### Classification 3
+
+**Post**
+
+> I have a problem with synthesis.
+
+**Predicted Label:** Hardware & Boards
+
+**Confidence:** 0.26
+
+---
+
+### Classification 4
+
+**Post**
+
+> I have previously worked with Artix-7. I have to get familiarised with the VPK180 Versal board.
+
+**Predicted Label:** Learning & Projects
+
+**Confidence:** 0.26
+
+---
+
+## 2. One Correct Prediction with Explanation
+
+The correctly classified example is:
+
+> Some cool things I can do with an FPGA board.
+
+The model predicted **Learning & Projects** with a confidence score of **0.27**.
+
+This prediction is reasonable because the post discusses FPGA project ideas and learning activities. It does not focus on debugging, hardware comparison, or career advice, so Learning & Projects is the appropriate category.
+
+---
+
+## 3. One Incorrect Prediction with Explanation
+
+The incorrect example is:
+
+> Technical interview at Graphcore for design position.
+
+The true label is **Career & Industry**, but the model predicted **Hardware & Boards** with a confidence score of **0.26**.
+
+This prediction is incorrect because the discussion is about a technical job interview rather than FPGA hardware. The model appears to have focused on the technical word *design* instead of recognizing that the overall context is employment and career development.
+
+---
+
+## 4. Brief Walkthrough of the Evaluation Report
+
+The zero-shot Groq baseline achieved an overall accuracy of **73.5%**, while the fine-tuned DistilBERT model achieved **29.4%** accuracy on the same test set.
+
+The confusion matrix summarizes the model's predictions. The rows represent the true labels, while the columns represent the predicted labels. The diagonal entries correspond to correctly classified posts, whereas the off-diagonal entries represent misclassifications.
+
+The model correctly classified:
+
+* **2 of 9** Career & Industry posts.
+* **4 of 9** Learning & Projects posts.
+* **4 of 7** Hardware & Boards posts.
+* **0 of 9** Design & Debugging posts.
+
+The confusion matrix shows that most **Design & Debugging** posts were misclassified as **Hardware & Boards** or **Learning & Projects**. This explains why the Design & Debugging category obtained an **F1-score of 0.00**.
+
+Overall, the zero-shot baseline outperformed the fine-tuned model on this dataset. The results suggest that additional labeled examples, improved label definitions, and hyperparameter tuning would likely improve the model's performance in future work.
