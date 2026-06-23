@@ -390,11 +390,14 @@ This demonstration addresses the four required items for the project demo.
 
 ## 1. Show 3–5 Posts Being Classified by the Fine-Tuned Model
 
+
 ### Classification 1 (Correct Prediction)
 
 **Post**
 
 > Some cool things I can do with an FPGA board.
+
+**Ground Truth (True Label):** Learning & Projects
 
 **Predicted Label:** Learning & Projects
 
@@ -410,6 +413,8 @@ This prediction is correct because the post is asking about FPGA project ideas a
 
 > Technical interview at Graphcore for design position.
 
+**Ground Truth (True Label):** Career & Industry
+
 **Predicted Label:** Hardware & Boards
 
 **Confidence:** 0.26
@@ -421,6 +426,8 @@ This prediction is correct because the post is asking about FPGA project ideas a
 **Post**
 
 > I have a problem with synthesis.
+
+**Ground Truth (True Label):** Design & Debugging
 
 **Predicted Label:** Hardware & Boards
 
@@ -434,6 +441,8 @@ This prediction is correct because the post is asking about FPGA project ideas a
 
 > I have previously worked with Artix-7. I have to get familiarised with the VPK180 Versal board.
 
+**Ground Truth (True Label):** Hardware & Boards
+
 **Predicted Label:** Learning & Projects
 
 **Confidence:** 0.26
@@ -446,9 +455,13 @@ The correctly classified example is:
 
 > Some cool things I can do with an FPGA board.
 
-The model predicted **Learning & Projects** with a confidence score of **0.27**.
+**Ground Truth (True Label):** Learning & Projects
 
-This prediction is reasonable because the post discusses FPGA project ideas and learning activities. It does not focus on debugging, hardware comparison, or career advice, so Learning & Projects is the appropriate category.
+**Predicted Label:** Learning & Projects
+
+**Confidence:** 0.27
+
+This prediction is reasonable because the post discusses FPGA project ideas and learning activities. It does not focus on debugging, hardware comparison, or career advice, so **Learning & Projects** is the appropriate category.
 
 ---
 
@@ -458,7 +471,11 @@ The incorrect example is:
 
 > Technical interview at Graphcore for design position.
 
-The true label is **Career & Industry**, but the model predicted **Hardware & Boards** with a confidence score of **0.26**.
+**Ground Truth (True Label):** Career & Industry
+
+**Predicted Label:** Hardware & Boards
+
+**Confidence:** 0.26
 
 This prediction is incorrect because the discussion is about a technical job interview rather than FPGA hardware. The model appears to have focused on the technical word *design* instead of recognizing that the overall context is employment and career development.
 
@@ -468,7 +485,7 @@ This prediction is incorrect because the discussion is about a technical job int
 
 The zero-shot Groq baseline achieved an overall accuracy of **73.5%**, while the fine-tuned DistilBERT model achieved **29.4%** accuracy on the same test set.
 
-The confusion matrix summarizes the model's predictions. The rows represent the true labels, while the columns represent the predicted labels. The diagonal entries correspond to correctly classified posts, whereas the off-diagonal entries represent misclassifications.
+The confusion matrix summarizes the model's predictions. The rows represent the **true labels**, while the columns represent the **predicted labels**. The diagonal entries correspond to correctly classified posts, whereas the off-diagonal entries represent misclassifications.
 
 The model correctly classified:
 
@@ -479,4 +496,4 @@ The model correctly classified:
 
 The confusion matrix shows that most **Design & Debugging** posts were misclassified as **Hardware & Boards** or **Learning & Projects**. This explains why the Design & Debugging category obtained an **F1-score of 0.00**.
 
-Overall, the zero-shot baseline outperformed the fine-tuned model on this dataset. The results suggest that additional labeled examples, improved label definitions, and hyperparameter tuning would likely improve the model's performance in future work.
+Overall, the zero-shot Groq baseline outperformed the fine-tuned DistilBERT model on this dataset. The results suggest that collecting additional labeled examples, refining the label definitions, and performing hyperparameter tuning would likely improve the model's performance in future work.
