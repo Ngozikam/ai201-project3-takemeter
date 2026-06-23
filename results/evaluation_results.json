@@ -1,0 +1,13 @@
+{
+  "baseline_accuracy": 0.7353,
+  "finetuned_accuracy": 0.2941,
+  "improvement": -0.4412,
+  "test_set_size": 34,
+  "label_map": {
+    "Career & Industry": 0,
+    "Learning & Projects": 1,
+    "Hardware & Boards": 2,
+    "Design & Debugging": 3
+  },
+  "model": "distilbert-base-uncased"
+}
